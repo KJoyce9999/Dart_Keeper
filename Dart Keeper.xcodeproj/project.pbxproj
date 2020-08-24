@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0640703C207D978800D023E2 /* MainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0640703B207D978800D023E2 /* MainScreenViewController.m */; };
+		06476ED122D786AC0027C677 /* blackboardBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 06476ED022D786AC0027C677 /* blackboardBackground.png */; };
+		06476ED322D787BA0027C677 /* blueBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 06476ED222D787BA0027C677 /* blueBackground.png */; };
+		069B8D5B206A097800631954 /* CricketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069B8D5A206A097700631954 /* CricketViewController.m */; };
+		069B8D60206A115500631954 /* cricketOneLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 069B8D5C206A115500631954 /* cricketOneLine.png */; };
+		069B8D62206A115500631954 /* cricketCircleDoubleLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 069B8D5E206A115500631954 /* cricketCircleDoubleLine.png */; };
+		069B8D63206A115500631954 /* cricketDoubleLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 069B8D5F206A115500631954 /* cricketDoubleLine.png */; };
+		DC223D661E2EBCD50055BC55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC223D651E2EBCD50055BC55 /* main.m */; };
+		DC223D691E2EBCD50055BC55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC223D681E2EBCD50055BC55 /* AppDelegate.m */; };
+		DC223D6C1E2EBCD50055BC55 /* X01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC223D6B1E2EBCD50055BC55 /* X01ViewController.m */; };
+		DC223D6F1E2EBCD50055BC55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC223D6D1E2EBCD50055BC55 /* Main.storyboard */; };
+		DC223D711E2EBCD50055BC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC223D701E2EBCD50055BC55 /* Assets.xcassets */; };
+		DC223D741E2EBCD50055BC55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC223D721E2EBCD50055BC55 /* LaunchScreen.storyboard */; };
+		DC223D7F1E2EBCD50055BC55 /* Dart_Scoreboard__X01_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC223D7E1E2EBCD50055BC55 /* Dart_Scoreboard__X01_UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC223D7B1E2EBCD50055BC55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC223D591E2EBCD50055BC55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC223D601E2EBCD50055BC55;
+			remoteInfo = "Dart Scoreboard (X01)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0640703A207D978800D023E2 /* MainScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainScreenViewController.h; sourceTree = "<group>"; };
+		0640703B207D978800D023E2 /* MainScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainScreenViewController.m; sourceTree = "<group>"; };
+		06476ED022D786AC0027C677 /* blackboardBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackboardBackground.png; sourceTree = "<group>"; };
+		06476ED222D787BA0027C677 /* blueBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBackground.png; sourceTree = "<group>"; };
+		069B8D59206A097700631954 /* CricketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CricketViewController.h; sourceTree = "<group>"; };
+		069B8D5A206A097700631954 /* CricketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CricketViewController.m; sourceTree = "<group>"; };
+		069B8D5C206A115500631954 /* cricketOneLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cricketOneLine.png; sourceTree = "<group>"; };
+		069B8D5E206A115500631954 /* cricketCircleDoubleLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cricketCircleDoubleLine.png; sourceTree = "<group>"; };
+		069B8D5F206A115500631954 /* cricketDoubleLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cricketDoubleLine.png; sourceTree = "<group>"; };
+		DC223D611E2EBCD50055BC55 /* Dart Keeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dart Keeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC223D651E2EBCD50055BC55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC223D671E2EBCD50055BC55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC223D681E2EBCD50055BC55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC223D6A1E2EBCD50055BC55 /* X01ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = X01ViewController.h; sourceTree = "<group>"; };
+		DC223D6B1E2EBCD50055BC55 /* X01ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = X01ViewController.m; sourceTree = "<group>"; };
+		DC223D6E1E2EBCD50055BC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC223D701E2EBCD50055BC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC223D731E2EBCD50055BC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC223D751E2EBCD50055BC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC223D7A1E2EBCD50055BC55 /* Dart KeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dart KeeperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC223D7E1E2EBCD50055BC55 /* Dart_Scoreboard__X01_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dart_Scoreboard__X01_UITests.m; sourceTree = "<group>"; };
+		DC223D801E2EBCD50055BC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC223D5E1E2EBCD50055BC55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC223D771E2EBCD50055BC55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC223D581E2EBCD50055BC55 = {
+			isa = PBXGroup;
+			children = (
+				DC223D631E2EBCD50055BC55 /* Dart Keeper */,
+				DC223D7D1E2EBCD50055BC55 /* Dart Keeper UITests */,
+				DC223D621E2EBCD50055BC55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC223D621E2EBCD50055BC55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC223D611E2EBCD50055BC55 /* Dart Keeper.app */,
+				DC223D7A1E2EBCD50055BC55 /* Dart KeeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC223D631E2EBCD50055BC55 /* Dart Keeper */ = {
+			isa = PBXGroup;
+			children = (
+				DC223D671E2EBCD50055BC55 /* AppDelegate.h */,
+				DC223D681E2EBCD50055BC55 /* AppDelegate.m */,
+				069B8D59206A097700631954 /* CricketViewController.h */,
+				069B8D5A206A097700631954 /* CricketViewController.m */,
+				0640703A207D978800D023E2 /* MainScreenViewController.h */,
+				0640703B207D978800D023E2 /* MainScreenViewController.m */,
+				DC223D6A1E2EBCD50055BC55 /* X01ViewController.h */,
+				DC223D6B1E2EBCD50055BC55 /* X01ViewController.m */,
+				DC223D6D1E2EBCD50055BC55 /* Main.storyboard */,
+				DC223D701E2EBCD50055BC55 /* Assets.xcassets */,
+				DC223D721E2EBCD50055BC55 /* LaunchScreen.storyboard */,
+				DC223D751E2EBCD50055BC55 /* Info.plist */,
+				DC223D641E2EBCD50055BC55 /* Supporting Files */,
+			);
+			path = "Dart Keeper";
+			sourceTree = "<group>";
+		};
+		DC223D641E2EBCD50055BC55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06476ED222D787BA0027C677 /* blueBackground.png */,
+				06476ED022D786AC0027C677 /* blackboardBackground.png */,
+				069B8D5E206A115500631954 /* cricketCircleDoubleLine.png */,
+				069B8D5F206A115500631954 /* cricketDoubleLine.png */,
+				069B8D5C206A115500631954 /* cricketOneLine.png */,
+				DC223D651E2EBCD50055BC55 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC223D7D1E2EBCD50055BC55 /* Dart Keeper UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC223D7E1E2EBCD50055BC55 /* Dart_Scoreboard__X01_UITests.m */,
+				DC223D801E2EBCD50055BC55 /* Info.plist */,
+			);
+			path = "Dart Keeper UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC223D601E2EBCD50055BC55 /* Dart Keeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC223D831E2EBCD50055BC55 /* Build configuration list for PBXNativeTarget "Dart Keeper" */;
+			buildPhases = (
+				DC223D5D1E2EBCD50055BC55 /* Sources */,
+				DC223D5E1E2EBCD50055BC55 /* Frameworks */,
+				DC223D5F1E2EBCD50055BC55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dart Keeper";
+			productName = "Dart Scoreboard (X01)";
+			productReference = DC223D611E2EBCD50055BC55 /* Dart Keeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC223D791E2EBCD50055BC55 /* Dart KeeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC223D861E2EBCD50055BC55 /* Build configuration list for PBXNativeTarget "Dart KeeperUITests" */;
+			buildPhases = (
+				DC223D761E2EBCD50055BC55 /* Sources */,
+				DC223D771E2EBCD50055BC55 /* Frameworks */,
+				DC223D781E2EBCD50055BC55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC223D7C1E2EBCD50055BC55 /* PBXTargetDependency */,
+			);
+			name = "Dart KeeperUITests";
+			productName = "Dart Scoreboard (X01)UITests";
+			productReference = DC223D7A1E2EBCD50055BC55 /* Dart KeeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC223D591E2EBCD50055BC55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Keenan Joyce";
+				TargetAttributes = {
+					DC223D601E2EBCD50055BC55 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = FX393Z8KCZ;
+					};
+					DC223D791E2EBCD50055BC55 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DC223D601E2EBCD50055BC55;
+					};
+				};
+			};
+			buildConfigurationList = DC223D5C1E2EBCD50055BC55 /* Build configuration list for PBXProject "Dart Keeper" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC223D581E2EBCD50055BC55;
+			productRefGroup = DC223D621E2EBCD50055BC55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC223D601E2EBCD50055BC55 /* Dart Keeper */,
+				DC223D791E2EBCD50055BC55 /* Dart KeeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC223D5F1E2EBCD50055BC55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06476ED122D786AC0027C677 /* blackboardBackground.png in Resources */,
+				069B8D60206A115500631954 /* cricketOneLine.png in Resources */,
+				06476ED322D787BA0027C677 /* blueBackground.png in Resources */,
+				DC223D741E2EBCD50055BC55 /* LaunchScreen.storyboard in Resources */,
+				DC223D711E2EBCD50055BC55 /* Assets.xcassets in Resources */,
+				069B8D63206A115500631954 /* cricketDoubleLine.png in Resources */,
+				069B8D62206A115500631954 /* cricketCircleDoubleLine.png in Resources */,
+				DC223D6F1E2EBCD50055BC55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC223D781E2EBCD50055BC55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC223D5D1E2EBCD50055BC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC223D6C1E2EBCD50055BC55 /* X01ViewController.m in Sources */,
+				DC223D691E2EBCD50055BC55 /* AppDelegate.m in Sources */,
+				DC223D661E2EBCD50055BC55 /* main.m in Sources */,
+				069B8D5B206A097800631954 /* CricketViewController.m in Sources */,
+				0640703C207D978800D023E2 /* MainScreenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC223D761E2EBCD50055BC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC223D7F1E2EBCD50055BC55 /* Dart_Scoreboard__X01_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC223D7C1E2EBCD50055BC55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC223D601E2EBCD50055BC55 /* Dart Keeper */;
+			targetProxy = DC223D7B1E2EBCD50055BC55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC223D6D1E2EBCD50055BC55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC223D6E1E2EBCD50055BC55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC223D721E2EBCD50055BC55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC223D731E2EBCD50055BC55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC223D811E2EBCD50055BC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC223D821E2EBCD50055BC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC223D841E2EBCD50055BC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FX393Z8KCZ;
+				INFOPLIST_FILE = "Dart Keeper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keenanjoyce.Dart-Keeper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DC223D851E2EBCD50055BC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FX393Z8KCZ;
+				INFOPLIST_FILE = "Dart Keeper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keenanjoyce.Dart-Keeper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DC223D871E2EBCD50055BC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dart Keeper UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keenanjoyce.Dart-Keeper-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dart Scoreboard (X01)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DC223D881E2EBCD50055BC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dart Keeper UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keenanjoyce.Dart-Keeper-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dart Scoreboard (X01)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC223D5C1E2EBCD50055BC55 /* Build configuration list for PBXProject "Dart Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC223D811E2EBCD50055BC55 /* Debug */,
+				DC223D821E2EBCD50055BC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC223D831E2EBCD50055BC55 /* Build configuration list for PBXNativeTarget "Dart Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC223D841E2EBCD50055BC55 /* Debug */,
+				DC223D851E2EBCD50055BC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC223D861E2EBCD50055BC55 /* Build configuration list for PBXNativeTarget "Dart KeeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC223D871E2EBCD50055BC55 /* Debug */,
+				DC223D881E2EBCD50055BC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC223D591E2EBCD50055BC55 /* Project object */;
+}
